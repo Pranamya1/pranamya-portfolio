@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranamya | Portfolio</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="ASSETS/IMAGES/portfolio_logo.png" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style/index.css">
+
+  <!-- Google Fonts -->
+  <!-- Primary font for headings and name -->
+  <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet">
+  <!-- Secondary font for everything else -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+  <!-- CDN for Contact Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Main Container -->
+  <div class="main-container">
+    <!-- Home Section -->
+    <div class="home" id="home">
+      <!-- navigation section -->
+      <div class="navbar-sec">
+        <!-- first navbar for lap (big scr)  -->
+        <div class="lap-fis-navbar">
+          <!-- first section (name and logo section) of lap (big scr) first navbar -->
+          <div class="fis-lap-nav-fis">
+            <!-- logo -->
+            <img src="assets/images/portfolio_logo.png" alt="" height="100%">
+            <!-- navbar name -->
+            <p class="fis-lap-nav-name">Pranamya</p>
+          </div>
+          <!-- second section (navitem) of lap (big scr) first navbar -->
+          <div class="fis-lap-nav-seco">
+            <!-- navitem -->
+            <!-- home -->
+            <a href="#home" class="lap-fis-nav-navitem">Home</a>
+            <!-- about -->
+            <a href="#about" class="lap-fis-nav-navitem">About</a>
+            <!-- projects -->
+            <a href="#project" class="lap-fis-nav-navitem">Projects</a>
+            <!-- contact -->
+            <a href="#contact" class="lap-fis-nav-navitem">Contact</a>
+          </div>
+          <!-- third section (contact icons) of lap (big scr) first navbar -->
+          <div class="fis-lap-nav-thi">
+            <!-- github -->
+            <a href="" class="lap-fis-nav-contitem fab fa-github"></a>
+            <!-- email -->
+            <a href="mailto:pranamya653@gmail.com" class="lap-fis-nav-contitem fas fa-envelope"></a>
+            <!-- linked-in -->
+            <a href="https://www.linkedin.com/in/pranamya-kalambe-a3594b319/"
+              class="lap-fis-nav-contitem fab fa-linkedin-in"></a>
+          </div>
+        </div>
+        <!-- Second navbar for lap (big scr) -->
+        <div class="lap-seco-navbar">
+          <!-- first section (navitem) of lap (big scr) second navbar -->
+          <div class="seco-lap-nav-fis">
+            <!-- navitems -->
+            <!-- home -->
+            <a href="#home" class="lap-seco-nav-navitem">Home</a>
+            <!-- about -->
+            <a href="#about" class="lap-seco-nav-navitem">About</a>
+            <!-- project -->
+            <a href="#project" class="lap-seco-nav-navitem">Projects</a>
+            <!-- contact -->
+            <a href="#contact " class="lap-seco-nav-navitem">Contact</a>
+          </div>
+          <!-- second section (contact icons) of lap (big scr) second navbar -->
+          <div class="seco-lap-nav-seco">
+            <!-- contact icons -->
+            <!-- github -->
+            <a href="" class="lap-seco-nav-contitem fab fa-github"></a>
+            <!-- email -->
+            <a href="mailto:pranamya653@gmail.com" class="lap-fis-nav-contitem fas fa-envelope"></a>
+            <!-- linked-in -->
+            <a href="https://www.linkedin.com/in/pranamya-kalambe-a3594b319/"
+              class="lap-seco-nav-contitem fab fa-linkedin-in"></a>
+          </div>
+        </div>
+        <!-- Mobile Navbar -->
+        <div class="mob-navbar">
+          <!-- first section logo and name -->
+          <div class="mob-fis-sec">
+            <img src="assets/images/portfolio_logo.png" alt="" height="100%">
+            <p class="mob-nav-name">Pranamya</p>
+          </div>
+
+          <!-- second section Hamburger Icon -->
+          <div class="mob-seco-sec">
+            <div class="mob-menu-icon" onclick="mob_slidingNavbar()">☰</div>
+          </div>
+        </div>
+
+        <!-- Slide-out Sidebar -->
+        <!-- Slide-out Sidebar -->
+        <div class="mob-slidebar" id="mobSlidebar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#project">Projects</a>
+          <a href="#contact">Contact</a>
+
+          <!-- Contact Icons Section -->
+          <div class="mob-contact-icons">
+            <!-- contact icons -->
+            <!-- github -->
+            <a href="" class="lap-seco-nav-contitem fab fa-github"></a>
+            <!-- email -->
+            <a style="margin-left: 20vw;" href="mailto:pranamya653@gmail.com" class="lap-fis-nav-contitem fas fa-envelope"></a>
+            <!-- linked-in -->
+            <a href="https://www.linkedin.com/in/pranamya-kalambe-a3594b319/"
+              class="lap-seco-nav-contitem fab fa-linkedin-in"></a>
+          </div>
+        </div>
+      </div>
+      <!-- home content -->
+      <div class="home-content">
+        <!-- home name and img -->
+        <div class="home-name-img">
+          <!-- home name -->
+          <div class="home-name">
+            <!-- i'm -->
+            <p class="im">I'm</p>
+            <!-- first name -->
+            <p class="fis-name">Pranamya</p>
+            <!-- last name -->
+            <p class="las-name">Kalambe</p>
+            <!-- typing animation -->
+            <div class="typing-container">
+              <p>I'm a <span id="typed-text"></span><span class="cursor">|</span></p>
+            </div>
+            <!-- resume btn -->
+            <a href="#" class="resume-btn">Resume</a>
+          </div>
+          <!-- image section -->
+          <div class="home-img-sec">
+            <!-- img container -->
+            <div class="home-img-container"></div>
+          </div>
+        </div>
+        <!-- img of liberires and frame work i can use -->
+        <div class="lb-fw-img-marquee">
+          <div class="lb-fw-img-track">
+            <!-- Repeated once to create seamless loop -->
+            <img src="assets/images/bootstrap.png" alt="" class="lb-fw-img">
+            <img src="assets/images/tailwindcss.png" alt="" class="lb-fw-img">
+            <img src="assets/images/sass.png" alt="" class="lb-fw-img">
+            <img src="assets/images/gsap.png" alt="" class="lb-fw-img">
+            <img src="assets/images/three.png" alt="" class="lb-fw-img">
+            <img src="assets/images/node.png" alt="" class="lb-fw-img">
+            <img src="assets/images/react.png" alt="" class="lb-fw-img">
+            <img src="assets/images/vue.png" alt="" class="lb-fw-img">
+
+            <!-- Duplicate -->
+            <img src="assets/images/bootstrap.png" alt="" class="lb-fw-img">
+            <img src="assets/images/tailwindcss.png" alt="" class="lb-fw-img">
+            <img src="assets/images/sass.png" alt="" class="lb-fw-img">
+            <img src="assets/images/gsap.png" alt="" class="lb-fw-img">
+            <img src="assets/images/three.png" alt="" class="lb-fw-img">
+            <img src="assets/images/node.png" alt="" class="lb-fw-img">
+            <img src="assets/images/react.png" alt="" class="lb-fw-img">
+            <img src="assets/images/vue.png" alt="" class="lb-fw-img">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about section -->
+    <div class="about" id="about">
+      <!-- heading -->
+      <div class="heading-sec">
+        <!-- heading extra part -->
+        <div class="heading-extra"></div>
+        <!-- about heading -->
+        <div class="heading">
+          <p>About Me</p>
+        </div>
+      </div>
+      <!-- about content -->
+      <div class="about-content">
+        <!-- about img -->
+        <div class="about-img-sec">
+          <div class="about-img-container"></div>
+        </div>
+        <!-- about info -->
+        <div class="about-info-sec">
+          <!-- my information -->
+          <!-- text about me -->
+          <div class="about-me">
+            <h2>Full Stack Developer</h2>
+            <p>I'm a passionate 16-year-old Full Stack Developer and Science student, eager to build impactful digital
+              experiences and constantly learn new technologies.</p>
+          </div>
+          <!-- about info card -->
+          <div class="about-info">
+            <!-- abour info box -->
+            <div class="info-box">
+              <p class="info-title">Name:</p>
+              <h2 class="info">Pranamya Kalambe</h2>
+            </div>
+            <div class="info-box">
+              <p class="info-title">Age:</p>
+              <h2 class="info">16</h2>
+            </div>
+            <div class="info-box">
+              <p class="info-title">Phone:</p>
+              <h2 class="info">+91 84213 19751</h2>
+            </div>
+            <div class="info-box">
+              <p class="info-title">Email:</p>
+              <h2 class="info">pranamya653@gmail.com</h2>
+            </div>
+            <div class="info-box">
+              <p class="info-title">Grade:</p>
+              <h2 class="info">12th (Science)</h2>
+            </div>
+            <div class="info-box">
+              <p class="info-title">Location:</p>
+              <h2 class="info">Nagpur, Maharashtra, India</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- project section -->
+    <div class="project" id="project">
+      <!-- heading -->
+      <div class="heading-sec">
+        <!-- heading extra part -->
+        <div class="heading-extra"></div>
+        <!-- project heading -->
+        <div class="heading">
+          <p>Projects</p>
+        </div>
+      </div>
+      <!-- project content -->
+      <div class="project-content">
+        <!-- project navigation bar -->
+        <div class="project-navbar">
+          <a href="" class="project-navitem">Html & Css</a>
+          <a href="" class="project-navitem">Javascript</a>
+          <a href="" class="project-navitem">Bootstrap</a>
+          <a href="" class="project-navitem">React</a>
+        </div>
+        <!-- project container -->
+        <div class="project-container"></div>
+      </div>
+    </div>
+  </div>
+  <!-- cdns for gsap (animation) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <!-- js file link -->
+  <script src="script/index.js"></script>
+</body>
+
+</html>
