@@ -343,22 +343,6 @@ body {
   }
 }
 
-button {
-  height: 10%;
-  width: 30%;
-  border: 1px solid #009dff;
-  border-radius: 0 10px 0 10px;
-  color: #009dff;
-  text-decoration: none;
-  margin-left: 8%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  cursor: pointer;
-  background-color: transparent;
-}
-
 /* resume btn */
 .resume-btn {
   height: 8%;
