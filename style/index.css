@@ -1008,6 +1008,12 @@ label {
     justify-content: center;
   }
 
+    .about-img-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
   .about-info-sec {
     height: 80vh;
     width: 100%;
